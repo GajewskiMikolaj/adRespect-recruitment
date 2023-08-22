@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat', 'arial';
+}
+
+.navbar {
+    background: white;
+}
+
+.carousel-inner {
+    width: auto;
+}
+
+.leftside, .rightside {
+    height: 40rem; 
+    width: 100%;
+}
+
+.leftside {
+    background: #DCC1AB;
+}
+
+.rightside img {
+    width: 100%;
+    height: 100%;
+}
+
+.leftside .btn-contact {
+    background: darkgreen;
+    border-radius: 50px;
+    color: white;
+    transition: 0.5s;
+}
+
+.leftside .btn-projects {
+    border: 1px solid black;
+    border-radius: 50px;
+    color: darkgreen;
+    transition: 0.5s;
+}
+
+.leftside .btn-contact:hover {
+    border: 1px solid black;
+    color: darkgreen;
+}
+
+.leftside .btn-projects:hover {
+    background: darkgreen;
+    color: white;
+}
+
+.carousel {
+    transition: 5s ease;
+}
+
+.offer {
+    background: #F5F0EC;
+}
+
+.offer .offer-text {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.offer .card {
+    border-radius: 40px;
+    height: 20rem;
+}
+
+.offer .card-body a{
+    color: black;
+    text-decoration: none;
+}
+
+.offer .card-body .underline-border {
+    border-bottom: 1px solid #1B5B31;
+}
+
+.offer .card-body a:hover {
+    color: #1b5b318e;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.offer .card-body:hover {
+    background: #f5f0ec73;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.leftside-company, .rightside-company {
+    height: 40rem;
+    width: 100%;
+}
+
+.rightside-company {
+    background: #1B5B31;
+    color: white;
+}
+
+.rightside-company .about-right {
+    width: 80%;
+}
+
+.rightside-company .btn-company {
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+}
+
+.rightside-company .btn-company:hover {
+    color: black;
+    background: white;
+    transition: 0.9s;
+}
+
+.our-projects {
+    width: 100%;
+    background: #DCC1AB;
+    height: 100%;
+    position: relative;
+}
+
+.our-projects h1 {
+    position: absolute;
+    padding: 5rem;
+    left: 10rem;
+    top: 0;
+}
+
+.container-bottom {
+    background: #1B5B31;
+    color: white;
+    display: flex;
+    width: 75%;
+    height: 20rem;
+    margin: 100px auto;
+}
+
+.container-bottom .container-left {
+    margin: auto;
+    margin-left: 100px auto;
+}
+
+.container-bottom .container-right {
+    margin: auto;
+    margin-right: 100px auto;
+
+}
+
+.container-bottom .btn-ig {
+    border: 1px solid white;
+    background: white;
+    border-radius: 30px;
+    color: #1B5B31;
+    transition: 0.5s;
+}
+
+
+.footer-info a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer .btn-bottom {
+    background: darkgreen;
+    border-radius: 40px;
+    color: white;
+}
+
+.footer .btn-bottom:hover {
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 767px){
+    .leftside, .rightside {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .offer {
+        width: 100%;
+        height: 100%;
+    }
+    .offer .offer-text {
+        padding-left: 55px;
+    }
+    .offer .card {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .about-company {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .rightside-company .about-right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .our-projects {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container-bootom {
+        width: 100%;
+        height: 100%;
+    }
+}
